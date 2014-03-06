@@ -45,7 +45,7 @@ while(max--) {
 
 ## O melhor loop é aquele que não precisa ser feito
 
-No caso mostrado no WorkShop, usei uma técnica chamada ** delegate ** , para atrelar eventos a diversos objetos do DOM, evitando fazer qualquer loop, e chamando a função addEventListener uma única vez, apenas para o elemento pai.
+No caso mostrado no WorkShop, usei uma técnica chamada **delegate** , para atrelar eventos a diversos objetos do DOM, evitando fazer qualquer loop, e chamando a função addEventListener uma única vez, apenas para o elemento pai.
 
 
 
