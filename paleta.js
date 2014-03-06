@@ -25,23 +25,5 @@
 		}
 	});
 
-	// não mexer, mágica
-	// while(max--) {
-	// 	var $this = $btns[max];
-
-	// 	$this.addEventListener('click', function(){
-	// 		$body.classList.remove('black');
-	// 		$body.classList.remove('blue');
-	// 		$body.classList.remove('red');
-	// 		$body.classList.remove('yellow');
-	// 		$body.classList.remove('pink');
-	// 		$body.classList.remove('white');
-	// 		$body.classList.remove('green');
-	// 		$body.classList.remove('gray');
-
-	// 		$body.classList.add(this.getAttribute('data-class'));
-	// 	});
-
-	// }
 
 }(window, document));

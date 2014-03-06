@@ -14,7 +14,6 @@ function changeBg(){
 }
 
 $btn.addEventListener('click', changeBg);
-
 $btn.addEventListener('click', function(){
 
 	console.log('outra coisa 2');

@@ -4,11 +4,10 @@ var $body = document.getElementsByTagName('body')[0],
 	$formAjax = document.getElementById('form-ajax');
 
 
-// XHR.get('a.txt', function(data) {
-// 	console.log(data);
-
-// 	$body.innerHTML = data;
-// });
+XHR.get('lorem-ipsum.txt', function(data) {
+	console.log(data);
+	$body.innerHTML = data;
+});
 
 
 $formAjax.addEventListener('submit', function(e){
