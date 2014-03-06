@@ -37,9 +37,11 @@ Evitamos ficar recalculando a propriedade .length a cada iteração do loop, e c
 
 E caso a ordem dos elementos não seja importante, como por exemplo, qndo estamos atrelando eventos a uma lista de elementos do DOM, é utilizar um while reverso
 
+``` javascript
 while(max--) {
     // do something with $arr[max];
 }
+```
 
 ## O melhor loop é aquele que não precisa ser feito
 
