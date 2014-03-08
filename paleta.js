@@ -12,14 +12,7 @@
 	
 		var $this = event.target;
 		if($this.tagName === 'INPUT') {
-			$body.classList.remove('black');
-			$body.classList.remove('blue');
-			$body.classList.remove('red');
-			$body.classList.remove('yellow');
-			$body.classList.remove('pink');
-			$body.classList.remove('white');
-			$body.classList.remove('green');
-			$body.classList.remove('gray');
+			$body.classList.remove('black','blue','red','yellow','pink','white','green','gray');
 
 			$body.classList.add($this.getAttribute('data-class'));			
 		}
