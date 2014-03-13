@@ -1,6 +1,11 @@
-# Palestra Eventials
+# Palestras Eventials
 
-Ainda está incompleto, ainda só com o código final da palestra. Mas favoritem o repositório que irei complementar com todas as explicações e comentários.
+Neste repositório colocarei os códigos e explicações utilizados em todas as palestras de JavaScript que eu farei pela plataforma Eventials.
+
+
+* [JavaScript - Boas práticas e otimizações](https://www.eventials.com/pinceladasdaweb/javascript-boas-praticas-e-otimizacoes/)
+
+* [JavaScript - Outras boas práticas e mais otimizações](https://www.eventials.com/pinceladasdaweb/javascript-outras-boas-praticas-e-mais-otimizacoes/) - 02/04/2014
 
 
 
