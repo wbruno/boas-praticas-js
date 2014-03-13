@@ -15,3 +15,4 @@ Neste repositório colocarei os códigos e explicações utilizados em todas as 
 * [LOOPs](https://github.com/wbruno/boas-praticas-js/blob/master/LOOPs.md)
 * [DELEGATE](https://github.com/wbruno/boas-praticas-js/blob/master/DELEGATE.md)
 * [REVELATION](https://github.com/wbruno/boas-praticas-js/blob/master/REVELATION.md)
+* [CLOUSURE](https://github.com/wbruno/boas-praticas-js/blob/master/CLOUSURE.md)
