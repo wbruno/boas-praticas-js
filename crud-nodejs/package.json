@@ -1,0 +1,26 @@
+{
+  "name": "boas-praticas-js",
+  "version": "0.0.1",
+  "description": "Workshop Construindo uma API Rest com ExpressJS - NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbruno/boas-praticas-js.git"
+  },
+  "author": "William Bruno <wbrunom@gmail.com> (http://wbruno.com.br/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbruno/boas-praticas-js/issues"
+  },
+  "homepage": "https://github.com/wbruno/boas-praticas-js",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "method-override": "^2.3.2",
+    "mongojs": "^0.18.2"
+  }
+}
