@@ -1,7 +1,7 @@
-Contruir uma API Rest em NodeJS utilizando ExpressJS e MongoDB
+# Contruir uma API Rest em NodeJS utilizando ExpressJS e MongoDB
 
 API
-Twitter, Facebook, Google Maps..
+Exemplos: Twitter, Facebook, Google Maps..
 
 Rest - http
 * POST -> Create
@@ -15,26 +15,35 @@ Status Code
 201 - Created
 
 
+# Módulos utilizados
+* bluebird (para Promises)
+* expressjs (como framework de rotas)
+* mongojs (conector para o mongodb)
+
+* supertest
+* mocha (testes unitários)
 
 # Teach a dog to Rest
 https://blog.apigee.com/detail/restful_api_design
 
 
 
-## Development
+# Desenvolvimento
 
-Install global nodemon and run server
+Instale o nodemon global e as dependências locais do projeto:
+
 ```
 $ npm install -g nodemon
+$ npm install
 $ npm start
 ```
 
-To run unit tests
+Para rodar os testes
 ```
 $ npm test
 ```
 
-## Testing the API on terminal
+## Testando a API pelo terminal
 
 ### POST (create)
 ```
