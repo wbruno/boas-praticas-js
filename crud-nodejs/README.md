@@ -14,6 +14,15 @@ Status Code
 404 - Not Found
 201 - Created
 
+# Bancos de dados
+* MongoDB
+```
+$ brew install mongodb
+```
+* MySQL
+```
+$ brew install mysql
+```
 
 # Módulos utilizados
 * bluebird (para Promises)
