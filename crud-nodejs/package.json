@@ -22,7 +22,8 @@
     "body-parser": "^1.12.2",
     "express": "^4.12.3",
     "method-override": "^2.3.2",
-    "mongojs": "^0.18.2"
+    "mongojs": "^0.18.2",
+    "mysql": "^2.6.1"
   },
   "devDependencies": {
     "mocha": "^2.2.1",

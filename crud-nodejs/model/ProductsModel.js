@@ -9,8 +9,6 @@ ProductsModel.prototype.create = function(data, callback) {
 };
 
 ProductsModel.prototype.findOne = function(_id, callback) {
-  console.log('model _id', _id);
-
   mongo.collection('products').findOne({ "_id": mongo.ObjectId(_id) }, callback);
 };
 
