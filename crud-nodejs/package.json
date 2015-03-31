@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha tests/*"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,14 @@
   },
   "homepage": "https://github.com/wbruno/boas-praticas-js",
   "dependencies": {
+    "bluebird": "^2.9.21",
     "body-parser": "^1.12.2",
     "express": "^4.12.3",
     "method-override": "^2.3.2",
     "mongojs": "^0.18.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "supertest": "^0.15.0"
   }
 }
