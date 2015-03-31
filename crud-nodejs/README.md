@@ -11,12 +11,17 @@ Rest - http
 * PUT -> Update
 * DELETE -> Delete
 
-Status Code
-200 - Ok
-404 - Not Found
-201 - Created
+Status Code [HTTP Status Cat](https://www.flickr.com/photos/girliemac/sets/72157628409467125)
+* 200 - Ok
+* 404 - Not Found
+* 201 - Created
 
-# Bancos de dados
+
+# [Teach a dog to Rest](https://blog.apigee.com/detail/restful_api_design)
+
+# Dependências
+
+## Bancos de dados
 * MongoDB
 ```
 $ brew install mongodb
@@ -26,20 +31,15 @@ $ brew install mongodb
 $ brew install mysql
 ```
 
-# Módulos utilizados
+## Módulos `npm` utilizados
 * bluebird (para Promises)
 * expressjs (como framework de rotas)
 * mongojs (conector para o mongodb)
-
 * supertest
 * mocha (testes unitários)
 
-# Teach a dog to Rest
-https://blog.apigee.com/detail/restful_api_design
 
-
-
-# Desenvolvimento
+## Desenvolvimento
 
 Instale o nodemon global e as dependências locais do projeto:
 
