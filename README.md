@@ -11,3 +11,6 @@ Neste repositório colocarei os códigos e explicações utilizados em todas as 
 * [Código](https://github.com/wbruno/boas-praticas-js/blob/master/crud-nodejs/)
 
 
+## [Aula 05 - MongoDB - Webschool.io](http://youtube.com.br)
+* [Código](https://github.com/wbruno/boas-praticas-js/blob/master/pokemon-seed/)
+
