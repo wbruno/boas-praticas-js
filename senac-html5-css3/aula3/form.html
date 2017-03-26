@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="" id="main">
+        <h1>Formulário</h1>
+        <fieldset class="column fleft">
+            <legend>Types Comuns</legend>
+            <label>Nome <input type="text" name="name" value="Nome" /></label>
+
+            <label for="ch1"><input type="checkbox" name="fruta[]" value="1" id="ch1" /> Abacaxi</label>
+            <label for="ch2"><input type="checkbox" name="fruta[]" value="2" id="ch2" /> Maçã</label>
+            <label for="ch3"><input type="checkbox" name="fruta[]" value="3" id="ch3" checked="checked" /> Manga</label>
+
+
+            <label for="rd1"><input type="radio" name="sexo" value="1" id="rd1" /> Masculino</label>
+            <label for="rd2"><input type="radio" name="sexo" value="2" id="rd2" /> Feminino</label>
+
+
+            <label>Estado: <select name="" id="">
+                <option value="">--</option>
+                <option value="SP" selected="selected">SP</option>
+                <option value="RJ">RJ</option>
+                <option value="RS">RS</option>
+            </select></label>
+
+            <input type="file" />
+            <input type="button" value="Botão" />
+            <button>Botão</button>
+        </fieldset>
+        <fieldset class="column fright">
+            <legend>Types html5</legend>
+            <label>Email: <input type="email" placeholder="email" /></label>
+            <label>Slider: <input type="range" placeholder="range" min="3" max="7" /></label>
+            <label>Telefone: <input type="tel" placeholder="tel" required="required" /></label>
+            <label>Número: <input type="number" placeholder="number" /></label>
+        </fieldset>
+
+        <fieldset class="clear">
+            <input type="reset" name="limpar" value="Limpar o Formulário" />
+            <input type="submit" name="enviar" value="Cadastrar SENAC" />
+        </fieldset>
+    </form>
+</body>
+</html>

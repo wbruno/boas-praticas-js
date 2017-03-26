@@ -1,0 +1,18 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+p {
+    color: blue;    
+}
+.fleft { float: left; }
+.fright { float: right; }
+.overflow { overflow: hidden; }
+.section { 
+    width: 49%;
+    background: #cbcbcb;
+}
+#photo {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#footer { clear: both; }

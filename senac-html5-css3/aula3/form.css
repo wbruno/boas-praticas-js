@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+label { display: block; }
+#main {
+    width: 820px;
+    margin: 0 auto;
+}
+.column {
+    width: 400px;
+    background: #ccc;
+    margin-bottom: 20px;
+}
+.fleft { float: left; }
+.fright { float: right; }
+.space-right { margin-right: 20px; }
+.clear { clear: both; }

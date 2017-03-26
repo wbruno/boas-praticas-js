@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body { background: #ccc; }
+h1 { margin-bottom: 20px; }
+p { margin-bottom: 15px; }
+#main {
+    width: 640px;
+    margin: 0 auto;
+}
+.column {
+    width: 200px;
+}
+.fleft { float: left; }
+.space-right { margin-right: 20px; }

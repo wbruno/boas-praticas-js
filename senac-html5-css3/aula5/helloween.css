@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Creepster);
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 14px Tahoma, sans-serif;
+    letter-spacing: -1px;
+    background: #ccc;
+}
+h1 {
+    font: 40px Creepster, sans-serif;
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 15px; line-height: 1.5em;
+    text-align: justify;
+}
+p:first-letter {
+    font-size: 40px;
+}
+.p1 { padding-top: 10px; }
+.p2 { color: #f0f; }
+.p3 {
+    width: 600px;
+    box-shadow: 0px 0px 14px #c00;
+    padding: 15px 20px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px red;
+    color: #444;
+    background: #ddd;
+}
+.fleft { float: left; }
+.space-right { margin-right: 20px; }
+.content { margin: 0 auto; }
+.center { text-align: center; }
+.overflow { overflow: hidden; }
+.bold { font-weight: bold; text-transform: uppercase; }
+#main { width: 960px; }
